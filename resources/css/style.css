@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Gilroy-Light;
+    src: url(../fonts/gilroy-light.otf);
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Gilroy-Light;
+    color: white;
+    background-image: linear-gradient(45deg, rgba(47, 104, 6, 1), rgba(106, 255, 0, 0.8));
+}
+
+h1 {
+    font-weight: 200;
+    text-align: left;
+}
+
+.logo {
+    height: 0.7em;
+}
+
+header {
+    padding-top: 0.2%;
+    padding-left: 2%;
+    width: 95%;
+    margin: auto;
+}
+
+.backgroundwrapper {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10em;
+    background-image: url('../images/toppng.com-abstract-lines-black-and-white-png-800x726.png"');
+}
+
+.background {
+    height: inherit;
+    width: inherit;
+}
+
+.firstpara {
+    text-align: center;
+    position: relative;
+    height: auto;
+    width: 100%;
+    top: -31%;
+}
+
+a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
