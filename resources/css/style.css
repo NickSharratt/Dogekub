@@ -26,6 +26,8 @@ header {
     padding-left: 2%;
     width: 95%;
     margin: auto;
+    position: fixed;
+    top: 0;
 }
 
 .backgroundwrapper {
@@ -34,6 +36,7 @@ header {
     width: 100%;
     height: 10em;
     background-image: url('../images/toppng.com-abstract-lines-black-and-white-png-800x726.png"');
+    padding-top: 5%;
 }
 
 .background {
@@ -46,7 +49,7 @@ header {
     position: relative;
     height: auto;
     width: 100%;
-    top: -31%;
+    top: -28%;
 }
 
 a {
